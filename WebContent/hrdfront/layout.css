@@ -1,0 +1,64 @@
+header {
+    background-color: cadetblue;		/* header 배경색 주기 */
+    color: white;						/* header 글자색 주기 */
+    padding: 44px 20px;					/* header 넓히기(header 태그 사이즈 키우기) */
+    margin-left: -10px;					/* header 여백 없애기 */
+    margin-top: -20px;					/* header 여백 없애기 */
+}
+
+h3 {
+    text-align: center;					/* 글자 가운데 정렬 */
+}
+
+body {
+    width: 100%;						/* body 태그 너비 꽉 채우기 */
+}
+
+ul {
+    list-style: none;					/* ul 태그의 list-style 없애기 (점 없애기) */
+    background-color: brown;			/* ul 태그 배경색 주기 */
+    overflow: hidden;					/* ul 태그 보이게 하기!*/
+    margin: auto;						/* ul 태그 여백을 없애줌 (header와 nav 딱 붙여줌!) */
+    margin-left: -10px;   				/* ul 태그 여백 없애기  */
+}
+
+ul > li {						/* ul 태그의 자식인 li 태그 */
+    float: left;						/* ul 태그 자식의 li 태그를 왼쪽으로 몰아버리기  */
+
+}
+
+ul > li a {						/* ul 태그의 자식인 li 태그의 a 태그 */
+    display: block;						/* 인라인 요소인 a 태그를 블록 요소로 바꾸기 */
+    color: aliceblue;					/* a 태그 글자색 바꾸기 */
+    padding: 20px 16px;					/* a 태그 넓히기 (a 태그 사이즈 키우기) */
+    text-align: center;					/* a 태그 내에서 글자 가운데 정렬 */
+    text-decoration: none;				/* a 태그에 생기는 밑줄 지우기 (데코 지우기) */
+}
+
+ul > li a:hover {				/* ul 태그의 자식인 li 태그의 a 태그에 마우스 커서가 올라갔을 때 */
+    background-color: black;			/* 배경색 바꾸기 */
+    color: white;						/* 글자색 바꾸기 */
+}
+
+								/* ul 태그가 1개일 때만 이렇게 작성!. 마지막 li 태그 스타일 */
+/* ul > li:last-child {			
+    float: right;						이게 아마 갤러리로 이동할 li 태그 만들었을 때 활용한 스타일
+    margin-right: 20px;
+} */
+
+main {
+    background-color: azure;			/* 배경색 바꾸기 */
+    padding: 30px;						/* 바깥 여백 주기 */
+    min-height: 640px;					/* 최소 높이 지정해주기 */
+    margin-left: -10px;					/* 다른 요소들이 이 속성을 가지고 있으므로, 가운데 정렬이 어긋나지 않기 위해 맞춰주기 */
+ 	box-sizing: border-box;				/* 가운데 정렬 맞추기 위함! footer 위치에 영향을 끼친다. */
+}
+
+
+footer {								
+    background-color: cornflowerblue ;	/* 배경색 바꾸기 */
+    color: white;							/* 글자색 바꾸기 */
+    padding: 30px;							/* footer 태그 넓히기 (footer 태그 사이즈 키우기) */
+    text-align: center;						/* 글자 가운데 정렬 */
+    margin-left: -10px;						/* 다른 요소들이 이 속성을 가지고 있으므로, 가운데 정렬이 어긋나지 않기 위해 맞춰주기 */
+}
